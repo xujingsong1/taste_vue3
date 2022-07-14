@@ -1,4 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import bootRouter from "./router";
 
-createApp(App).mount('#app')
+async function bootApp() {
+  const app = createApp(App);
+  bootRouter(app);
+  app.mount("#app");
+}
+
+bootApp();
+
+
