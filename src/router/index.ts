@@ -9,7 +9,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  console.log("前置首位");
+  if (to.name !== 'login' && !)
   next();
 });
 
