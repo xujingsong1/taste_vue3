@@ -1,5 +1,5 @@
 import type { RouteRecordRaw } from "vue-router";
-import Order from "@/components/Order";
+import Order from "Components/Order";
 const route: RouteRecordRaw[] = [
   {
     path: "/order/view",
