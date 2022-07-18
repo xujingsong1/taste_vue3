@@ -6,15 +6,15 @@ module.exports = defineConfig({
     port: 9000
   },
   lintOnSave: false,
-  configureWebpack: {
-    resolve: {
-      alias: [
-        {
-          alias: path.resolve(__dirname, 'src/pages/')
-        }
-      ]
-    }
-  }
+  // configureWebpack: {
+  //   resolve: {
+  //     alias: [
+  //       {
+  //         alias: path.resolve(__dirname, 'src/pages/')
+  //       }
+  //     ]
+  //   }
+  // }
 })
 
 // {

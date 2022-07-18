@@ -10,7 +10,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   console.log("前置首位");
-  next();
+  next({ name: 'login' });
 });
 
 export default async function (app: App<Element>) {

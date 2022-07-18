@@ -1,9 +1,9 @@
 import type { RouteRecordRaw } from "vue-router";
-import Order from "Components/Order";
+import Order from "../../components/Order";
 const route: RouteRecordRaw[] = [
   {
     path: "/order/view",
-    name: "Order",
+    name: "order",
     component: Order,
   },
 ];
